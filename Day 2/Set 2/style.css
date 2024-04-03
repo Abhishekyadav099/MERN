@@ -1,18 +1,19 @@
- *{
+ /* *{
     padding: 0px;
     margin: 0px;
  }
- 
- .parent{
+  */
+ /* .parent{
     font-size: 10px;
-}
+} */
 
-.child{
-    font-size: 2em;        /* parent's font-size: 10px * child font-size: 2em=20px will */
-        background-color: aqua;
-    width: 10em;       /*  20px*10em=200px will */
+/* .child{
+    font-size: 2em;        parent's font-size: 10px * child font-size: 2em=20px will */
+        /* background-color: aqua; */
+    /* width: 10em;        20px*10em=200px will 
+} */
 
-}
+
 
 /* .child{
     font-size: 20px;
@@ -39,9 +40,46 @@
     margin: 10px auto;
     font-size: 16px;
     width: 120px;
-    /* margin-top: 10px; */
+} /* margin-top: 10px; */
+
+    /* body{
+        background-color: aqua;
+        height: 100vh;
+        width: 100vw;
+    }
     
     
-    
+    .parent{
+        background-color: aquamarine;
+        height: 100%;
+    }
+
+    .child{
+        min-height: 200px;
+        width: 20;
+
+    } */
+
+    /* body{
+        height: 100vh;
+        width: 100vw;
+        background-color: aqua;
+    } */
+
+.parent{
+   ol{
+        background-color: rgb(15, 216, 109);
+        }
+        & ul:first-child{
+            background-color: mediumvioletred;
+    }
+    ul:last-child{
+        background-color: rgb(186, 162, 223);
+
+        li:nth-child(2){
+            background-color: cadetblue;
+        }
+    }
+
 
 }

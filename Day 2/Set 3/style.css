@@ -1,0 +1,50 @@
+/* .parent {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.parent {
+    background-color: aqua;
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.p1{
+    justify-content: space-between;
+}
+.p2{
+    justify-content: space-around;
+}
+.p3{
+    justify-content: space-evenly;
+}
+.p4{
+    justify-content: stretch;
+}
+
+.child {
+
+    width: 60px;
+
+    background-color: bisque;
+    border: 1px solid red;
+    flex-basis: 40px;
+
+
+}
+.parentss{
+    margin: 12px;
+}
+
+ /* .search-box{
+    flex-grow: 1;
+    padding: 6px;
+    font-size: 10px
+} */
+
+/* .cart{
+   
+ /* flex-grow: 2; */
+    /* three time  the height of a box */
