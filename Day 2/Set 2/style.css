@@ -1,0 +1,47 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ .parent{
+    font-size: 10px;
+}
+
+.child{
+    font-size: 2em;        /* parent's font-size: 10px * child font-size: 2em=20px will */
+        background-color: aqua;
+    width: 10em;       /*  20px*10em=200px will */
+
+}
+
+/* .child{
+    font-size: 20px;
+    background-color: aqua;
+    width: 10rem;
+} */
+
+.btn{
+    display: block;
+    padding: 16px;
+    border-radius: .5em;
+    border: none;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 8em;
+
+}
+
+.btn-small{
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 120px;
+    /* margin-top: 10px; */
+    
+    
+    
+
+}
