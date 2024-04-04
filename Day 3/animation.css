@@ -1,0 +1,23 @@
+button{
+    scale: 2;
+    position: absolute;
+
+    top: 20px;
+
+    left: 40px;
+
+    animation-name: button-animation-type-1;
+    animation-duration: 2s;
+}
+
+@keyframes button-animation-type-1 {
+    form{
+        top: 20px;
+        left: 40px;
+    }
+
+    to{
+        top: 20px;
+        left: 800px;
+    }
+}

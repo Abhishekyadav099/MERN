@@ -1,0 +1,13 @@
+*{
+    padding: 0; margin: ;
+}
+.parent{
+    background-color: violet;
+    color: white;
+    width: 20opx;
+    height: 400px;
+
+}
+@media (800px <= width <= 1200px){
+    
+}
