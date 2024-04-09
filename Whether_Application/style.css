@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.location-container {
+    margin-bottom: 20px;
+}
+
+.big-temperature {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#table-container {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #aba6a6;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #010101;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #a7b5ff;
+}
+
+#location-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#location-button:hover {
+    background-color: #45a049;
+}
+
+#location-input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+    max-width: 80%;
+}
+
+#location-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.weather-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-input {
+    margin-right: 10px;
+}
+
+#temperature {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
