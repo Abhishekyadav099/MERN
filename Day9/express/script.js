@@ -55,4 +55,18 @@ app.post('/api/products', async (req, res) => {
     })
 });
 
+app.put('/api/products/:id', async (req, res)=>{
+    const arr = JSON.parse( await fsPromises.readFile("./data.json", "|utf8"));
+    res.send("Work in progress..");
+    const reqId =req.params.id;
+    const data = req.body;
+    data.id = reqId;
+    const newArr = arr.map((elem)=>{
+        if(elem.id==reqId)return data;
+        else return elem;
+        
+    });
+
+})
+
 app.listen(1400);
