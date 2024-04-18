@@ -11,7 +11,11 @@ app.use((req, res, next)=>{
     const time = new Date().toLocaleString();
     fsPromises.appendFile('./log.txt', req.url+'\t'+time+'\n');
     next();
-})
+// app.use((req, res, next)=>{
+//     const time = new Date().toLocaleString();
+//     fsPromises.appendFile('./log.txt', req.url+'\t'+time+'\n');
+//     next();
+// })
 
 app.get('/api/products', async (req, res) => {
     // const data = fs.readFileSync('./data.json', "utf8");
